@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		481111BF193AA15900198FF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481111BE193AA15900198FF5 /* Foundation.framework */; };
+		481111C1193AA15900198FF5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481111C0193AA15900198FF5 /* CoreGraphics.framework */; };
+		481111C3193AA15900198FF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481111C2193AA15900198FF5 /* UIKit.framework */; };
+		481111C9193AA15900198FF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 481111C7193AA15900198FF5 /* InfoPlist.strings */; };
+		481111CB193AA15900198FF5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 481111CA193AA15900198FF5 /* main.m */; };
+		481111CF193AA15900198FF5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 481111CE193AA15900198FF5 /* AppDelegate.m */; };
+		481111DE193AA15900198FF5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481111DD193AA15900198FF5 /* XCTest.framework */; };
+		481111DF193AA15900198FF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481111BE193AA15900198FF5 /* Foundation.framework */; };
+		481111E0193AA15900198FF5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481111C2193AA15900198FF5 /* UIKit.framework */; };
+		481111E8193AA15900198FF5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 481111E6193AA15900198FF5 /* InfoPlist.strings */; };
+		481111EA193AA15900198FF5 /* Vital_AssistantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 481111E9193AA15900198FF5 /* Vital_AssistantTests.m */; };
+		481111F4193AA20000198FF5 /* UPPlatformSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481111F3193AA20000198FF5 /* UPPlatformSDK.framework */; };
+		481111FB193AA35400198FF5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 481111F9193AA35400198FF5 /* LoginViewController.m */; };
+		481111FC193AA35400198FF5 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 481111FA193AA35400198FF5 /* LoginViewController.xib */; };
+		48111201193AA7D700198FF5 /* ActionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 481111FF193AA7D700198FF5 /* ActionsViewController.m */; };
+		48111202193AA7D700198FF5 /* ActionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48111200193AA7D700198FF5 /* ActionsViewController.xib */; };
+		48111207193AAF4C00198FF5 /* MealsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48111205193AAF4C00198FF5 /* MealsViewController.m */; };
+		48111208193AAF4C00198FF5 /* MealsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48111206193AAF4C00198FF5 /* MealsViewController.xib */; };
+		4811120D193AAFAF00198FF5 /* CardiacViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4811120B193AAFAF00198FF5 /* CardiacViewController.m */; };
+		4811120E193AAFAF00198FF5 /* CardiacViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4811120C193AAFAF00198FF5 /* CardiacViewController.xib */; };
+		48111213193AAFCB00198FF5 /* WorkoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48111211193AAFCB00198FF5 /* WorkoutViewController.m */; };
+		48111214193AAFCB00198FF5 /* WorkoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48111212193AAFCB00198FF5 /* WorkoutViewController.xib */; };
+		4811121F193AAFF600198FF5 /* MoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4811121D193AAFF600198FF5 /* MoodViewController.m */; };
+		48111220193AAFF600198FF5 /* MoodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4811121E193AAFF600198FF5 /* MoodViewController.xib */; };
+		48111225193AB1DF00198FF5 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48111223193AB1DF00198FF5 /* ResultsViewController.m */; };
+		48111226193AB1DF00198FF5 /* ResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48111224193AB1DF00198FF5 /* ResultsViewController.xib */; };
+		4811122B193AB2EA00198FF5 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48111229193AB2EA00198FF5 /* BaseViewController.m */; };
+		AD7C31A489804A71AD1694FF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3CFF13A8F04400ACDFDD25 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		481111E1193AA15900198FF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 481111B3193AA15900198FF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 481111BA193AA15900198FF5;
+			remoteInfo = "Vital Assistant";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		279C22B8AF454DA08B9728A0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		481111BB193AA15900198FF5 /* Vital Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vital Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		481111BE193AA15900198FF5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		481111C0193AA15900198FF5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		481111C2193AA15900198FF5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		481111C6193AA15900198FF5 /* Vital Assistant-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vital Assistant-Info.plist"; sourceTree = "<group>"; };
+		481111C8193AA15900198FF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		481111CA193AA15900198FF5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		481111CC193AA15900198FF5 /* Vital Assistant-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Vital Assistant-Prefix.pch"; sourceTree = "<group>"; };
+		481111CD193AA15900198FF5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		481111CE193AA15900198FF5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		481111DC193AA15900198FF5 /* Vital AssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vital AssistantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		481111DD193AA15900198FF5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		481111E5193AA15900198FF5 /* Vital AssistantTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Vital AssistantTests-Info.plist"; sourceTree = "<group>"; };
+		481111E7193AA15900198FF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		481111E9193AA15900198FF5 /* Vital_AssistantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vital_AssistantTests.m; sourceTree = "<group>"; };
+		481111F3193AA20000198FF5 /* UPPlatformSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UPPlatformSDK.framework; sourceTree = "<group>"; };
+		481111F8193AA35400198FF5 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		481111F9193AA35400198FF5 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		481111FA193AA35400198FF5 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		481111FE193AA7D700198FF5 /* ActionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionsViewController.h; sourceTree = "<group>"; };
+		481111FF193AA7D700198FF5 /* ActionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionsViewController.m; sourceTree = "<group>"; };
+		48111200193AA7D700198FF5 /* ActionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionsViewController.xib; sourceTree = "<group>"; };
+		48111204193AAF4C00198FF5 /* MealsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MealsViewController.h; sourceTree = "<group>"; };
+		48111205193AAF4C00198FF5 /* MealsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MealsViewController.m; sourceTree = "<group>"; };
+		48111206193AAF4C00198FF5 /* MealsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MealsViewController.xib; sourceTree = "<group>"; };
+		4811120A193AAFAF00198FF5 /* CardiacViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardiacViewController.h; sourceTree = "<group>"; };
+		4811120B193AAFAF00198FF5 /* CardiacViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardiacViewController.m; sourceTree = "<group>"; };
+		4811120C193AAFAF00198FF5 /* CardiacViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardiacViewController.xib; sourceTree = "<group>"; };
+		48111210193AAFCB00198FF5 /* WorkoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkoutViewController.h; sourceTree = "<group>"; };
+		48111211193AAFCB00198FF5 /* WorkoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkoutViewController.m; sourceTree = "<group>"; };
+		48111212193AAFCB00198FF5 /* WorkoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WorkoutViewController.xib; sourceTree = "<group>"; };
+		4811121C193AAFF600198FF5 /* MoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoodViewController.h; sourceTree = "<group>"; };
+		4811121D193AAFF600198FF5 /* MoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoodViewController.m; sourceTree = "<group>"; };
+		4811121E193AAFF600198FF5 /* MoodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoodViewController.xib; sourceTree = "<group>"; };
+		48111222193AB1DF00198FF5 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		48111223193AB1DF00198FF5 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		48111224193AB1DF00198FF5 /* ResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultsViewController.xib; sourceTree = "<group>"; };
+		48111228193AB2EA00198FF5 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		48111229193AB2EA00198FF5 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		DA3CFF13A8F04400ACDFDD25 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		481111B8193AA15900198FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481111C1193AA15900198FF5 /* CoreGraphics.framework in Frameworks */,
+				481111C3193AA15900198FF5 /* UIKit.framework in Frameworks */,
+				481111F4193AA20000198FF5 /* UPPlatformSDK.framework in Frameworks */,
+				481111BF193AA15900198FF5 /* Foundation.framework in Frameworks */,
+				AD7C31A489804A71AD1694FF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		481111D9193AA15900198FF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481111DE193AA15900198FF5 /* XCTest.framework in Frameworks */,
+				481111E0193AA15900198FF5 /* UIKit.framework in Frameworks */,
+				481111DF193AA15900198FF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		481111B2193AA15900198FF5 = {
+			isa = PBXGroup;
+			children = (
+				481111C4193AA15900198FF5 /* Vital Assistant */,
+				481111C5193AA15900198FF5 /* Supporting Files */,
+				481111E3193AA15900198FF5 /* Vital AssistantTests */,
+				481111BD193AA15900198FF5 /* Frameworks */,
+				481111BC193AA15900198FF5 /* Products */,
+				279C22B8AF454DA08B9728A0 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		481111BC193AA15900198FF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				481111BB193AA15900198FF5 /* Vital Assistant.app */,
+				481111DC193AA15900198FF5 /* Vital AssistantTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		481111BD193AA15900198FF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				481111F3193AA20000198FF5 /* UPPlatformSDK.framework */,
+				481111BE193AA15900198FF5 /* Foundation.framework */,
+				481111C0193AA15900198FF5 /* CoreGraphics.framework */,
+				481111C2193AA15900198FF5 /* UIKit.framework */,
+				481111DD193AA15900198FF5 /* XCTest.framework */,
+				DA3CFF13A8F04400ACDFDD25 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		481111C4193AA15900198FF5 /* Vital Assistant */ = {
+			isa = PBXGroup;
+			children = (
+				481111CD193AA15900198FF5 /* AppDelegate.h */,
+				481111CE193AA15900198FF5 /* AppDelegate.m */,
+				481111F6193AA30C00198FF5 /* Controllers */,
+			);
+			path = "Vital Assistant";
+			sourceTree = "<group>";
+		};
+		481111C5193AA15900198FF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				481111C6193AA15900198FF5 /* Vital Assistant-Info.plist */,
+				481111C7193AA15900198FF5 /* InfoPlist.strings */,
+				481111CA193AA15900198FF5 /* main.m */,
+				481111CC193AA15900198FF5 /* Vital Assistant-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = "Vital Assistant";
+			sourceTree = "<group>";
+		};
+		481111E3193AA15900198FF5 /* Vital AssistantTests */ = {
+			isa = PBXGroup;
+			children = (
+				481111E9193AA15900198FF5 /* Vital_AssistantTests.m */,
+				481111E4193AA15900198FF5 /* Supporting Files */,
+			);
+			path = "Vital AssistantTests";
+			sourceTree = "<group>";
+		};
+		481111E4193AA15900198FF5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				481111E5193AA15900198FF5 /* Vital AssistantTests-Info.plist */,
+				481111E6193AA15900198FF5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		481111F6193AA30C00198FF5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				48111227193AB2DA00198FF5 /* BaseViewController */,
+				48111221193AB1CE00198FF5 /* ResultsViewController */,
+				4811121B193AAFE600198FF5 /* MoodViewController */,
+				4811120F193AAFB300198FF5 /* WorkoutViewController */,
+				48111209193AAF9F00198FF5 /* CardiacViewController */,
+				48111203193AAF3700198FF5 /* MealsViewController */,
+				481111FD193AA7C400198FF5 /* ActionsViewController */,
+				481111F7193AA34100198FF5 /* LoginViewController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		481111F7193AA34100198FF5 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				481111F8193AA35400198FF5 /* LoginViewController.h */,
+				481111F9193AA35400198FF5 /* LoginViewController.m */,
+				481111FA193AA35400198FF5 /* LoginViewController.xib */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
+		481111FD193AA7C400198FF5 /* ActionsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				481111FE193AA7D700198FF5 /* ActionsViewController.h */,
+				481111FF193AA7D700198FF5 /* ActionsViewController.m */,
+				48111200193AA7D700198FF5 /* ActionsViewController.xib */,
+			);
+			name = ActionsViewController;
+			sourceTree = "<group>";
+		};
+		48111203193AAF3700198FF5 /* MealsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				48111204193AAF4C00198FF5 /* MealsViewController.h */,
+				48111205193AAF4C00198FF5 /* MealsViewController.m */,
+				48111206193AAF4C00198FF5 /* MealsViewController.xib */,
+			);
+			name = MealsViewController;
+			sourceTree = "<group>";
+		};
+		48111209193AAF9F00198FF5 /* CardiacViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4811120A193AAFAF00198FF5 /* CardiacViewController.h */,
+				4811120B193AAFAF00198FF5 /* CardiacViewController.m */,
+				4811120C193AAFAF00198FF5 /* CardiacViewController.xib */,
+			);
+			name = CardiacViewController;
+			sourceTree = "<group>";
+		};
+		4811120F193AAFB300198FF5 /* WorkoutViewController */ = {
+			isa = PBXGroup;
+			children = (
+				48111210193AAFCB00198FF5 /* WorkoutViewController.h */,
+				48111211193AAFCB00198FF5 /* WorkoutViewController.m */,
+				48111212193AAFCB00198FF5 /* WorkoutViewController.xib */,
+			);
+			name = WorkoutViewController;
+			sourceTree = "<group>";
+		};
+		4811121B193AAFE600198FF5 /* MoodViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4811121C193AAFF600198FF5 /* MoodViewController.h */,
+				4811121D193AAFF600198FF5 /* MoodViewController.m */,
+				4811121E193AAFF600198FF5 /* MoodViewController.xib */,
+			);
+			name = MoodViewController;
+			sourceTree = "<group>";
+		};
+		48111221193AB1CE00198FF5 /* ResultsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				48111222193AB1DF00198FF5 /* ResultsViewController.h */,
+				48111223193AB1DF00198FF5 /* ResultsViewController.m */,
+				48111224193AB1DF00198FF5 /* ResultsViewController.xib */,
+			);
+			name = ResultsViewController;
+			sourceTree = "<group>";
+		};
+		48111227193AB2DA00198FF5 /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				48111228193AB2EA00198FF5 /* BaseViewController.h */,
+				48111229193AB2EA00198FF5 /* BaseViewController.m */,
+			);
+			name = BaseViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		481111BA193AA15900198FF5 /* Vital Assistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 481111ED193AA15900198FF5 /* Build configuration list for PBXNativeTarget "Vital Assistant" */;
+			buildPhases = (
+				3FFA181421664DD8ACEDD1B0 /* Check Pods Manifest.lock */,
+				481111B7193AA15900198FF5 /* Sources */,
+				481111B8193AA15900198FF5 /* Frameworks */,
+				481111B9193AA15900198FF5 /* Resources */,
+				9B6D60B1EC544827BB5A35E2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vital Assistant";
+			productName = "Vital Assistant";
+			productReference = 481111BB193AA15900198FF5 /* Vital Assistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		481111DB193AA15900198FF5 /* Vital AssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 481111F0193AA15900198FF5 /* Build configuration list for PBXNativeTarget "Vital AssistantTests" */;
+			buildPhases = (
+				481111D8193AA15900198FF5 /* Sources */,
+				481111D9193AA15900198FF5 /* Frameworks */,
+				481111DA193AA15900198FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				481111E2193AA15900198FF5 /* PBXTargetDependency */,
+			);
+			name = "Vital AssistantTests";
+			productName = "Vital AssistantTests";
+			productReference = 481111DC193AA15900198FF5 /* Vital AssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		481111B3193AA15900198FF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "George Purusniuc";
+				TargetAttributes = {
+					481111DB193AA15900198FF5 = {
+						TestTargetID = 481111BA193AA15900198FF5;
+					};
+				};
+			};
+			buildConfigurationList = 481111B6193AA15900198FF5 /* Build configuration list for PBXProject "Vital Assistant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 481111B2193AA15900198FF5;
+			productRefGroup = 481111BC193AA15900198FF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				481111BA193AA15900198FF5 /* Vital Assistant */,
+				481111DB193AA15900198FF5 /* Vital AssistantTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		481111B9193AA15900198FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48111214193AAFCB00198FF5 /* WorkoutViewController.xib in Resources */,
+				4811120E193AAFAF00198FF5 /* CardiacViewController.xib in Resources */,
+				481111FC193AA35400198FF5 /* LoginViewController.xib in Resources */,
+				48111208193AAF4C00198FF5 /* MealsViewController.xib in Resources */,
+				48111220193AAFF600198FF5 /* MoodViewController.xib in Resources */,
+				48111226193AB1DF00198FF5 /* ResultsViewController.xib in Resources */,
+				48111202193AA7D700198FF5 /* ActionsViewController.xib in Resources */,
+				481111C9193AA15900198FF5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		481111DA193AA15900198FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481111E8193AA15900198FF5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FFA181421664DD8ACEDD1B0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9B6D60B1EC544827BB5A35E2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		481111B7193AA15900198FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481111FB193AA35400198FF5 /* LoginViewController.m in Sources */,
+				481111CF193AA15900198FF5 /* AppDelegate.m in Sources */,
+				4811122B193AB2EA00198FF5 /* BaseViewController.m in Sources */,
+				48111201193AA7D700198FF5 /* ActionsViewController.m in Sources */,
+				48111207193AAF4C00198FF5 /* MealsViewController.m in Sources */,
+				4811120D193AAFAF00198FF5 /* CardiacViewController.m in Sources */,
+				481111CB193AA15900198FF5 /* main.m in Sources */,
+				4811121F193AAFF600198FF5 /* MoodViewController.m in Sources */,
+				48111213193AAFCB00198FF5 /* WorkoutViewController.m in Sources */,
+				48111225193AB1DF00198FF5 /* ResultsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		481111D8193AA15900198FF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481111EA193AA15900198FF5 /* Vital_AssistantTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		481111E2193AA15900198FF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 481111BA193AA15900198FF5 /* Vital Assistant */;
+			targetProxy = 481111E1193AA15900198FF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		481111C7193AA15900198FF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				481111C8193AA15900198FF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		481111E6193AA15900198FF5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				481111E7193AA15900198FF5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		481111EB193AA15900198FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		481111EC193AA15900198FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		481111EE193AA15900198FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 279C22B8AF454DA08B9728A0 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vital Assistant/Vital Assistant-Prefix.pch";
+				INFOPLIST_FILE = "Vital Assistant/Vital Assistant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		481111EF193AA15900198FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 279C22B8AF454DA08B9728A0 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vital Assistant/Vital Assistant-Prefix.pch";
+				INFOPLIST_FILE = "Vital Assistant/Vital Assistant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		481111F1193AA15900198FF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Vital Assistant.app/Vital Assistant";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vital Assistant/Vital Assistant-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Vital AssistantTests/Vital AssistantTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		481111F2193AA15900198FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Vital Assistant.app/Vital Assistant";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Vital Assistant/Vital Assistant-Prefix.pch";
+				INFOPLIST_FILE = "Vital AssistantTests/Vital AssistantTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		481111B6193AA15900198FF5 /* Build configuration list for PBXProject "Vital Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				481111EB193AA15900198FF5 /* Debug */,
+				481111EC193AA15900198FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		481111ED193AA15900198FF5 /* Build configuration list for PBXNativeTarget "Vital Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				481111EE193AA15900198FF5 /* Debug */,
+				481111EF193AA15900198FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		481111F0193AA15900198FF5 /* Build configuration list for PBXNativeTarget "Vital AssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				481111F1193AA15900198FF5 /* Debug */,
+				481111F2193AA15900198FF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 481111B3193AA15900198FF5 /* Project object */;
+}
